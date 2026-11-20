@@ -8,24 +8,26 @@
     <title>SeoulmateTV: Your Gateway to Korean Entertainment</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script>
 </head>
 <body>
     <header>
         <h1>SeoulmateTV 𑣲⋆</h1>
         <p>Discover a wide range of Korean dramas, variety shows, and movies.</p>
+        <img id="homepage_image" src="images/seoulmatetv_home.png" alt="K-drama Homepage Collage">
     </header>
 
     <main>
-        <section id="tvotd">
+        <section id="tv-otd">
             <h2>Korean Content of the Day</h2>
-            <div class="tvotd-content">
-                <img id="drama-image" src="" alt="">
+            <button onclick="fetchData()">Discover Today's Content</button>
+            <div id="tvotd-content">
+                <img id="drama-image" src="" alt="Hometown Cha-Cha-Cha Drama Cover" style="display: none">
                 <h3 id="drama-title"></h3>
                 <p id="drama-descr"></p>
                 <p id="drama-year"></p>
                 <p id="drama-genre"></p>
                 <p id="drama-rating"></p>
+                <script src="index.js"></script>
             </div>
         </section>       
     </main>
