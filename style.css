@@ -1,1 +1,58 @@
 /* CSS Styles */
+
+:root{
+    --lilac-ash: #9f9aa4;
+    --almond-silk: #e7cfcd;
+    --alabaster-grey: #cfd8d7;
+    --ash-grey: #b5c9c3;
+    --thistle: #cab1bd;
+    --grape-soda: #8c5383;
+}
+
+body {
+    background: var(--almond-silk);
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    border-top: 60px solid var(--alabaster-grey);
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+    color: var(--grape-soda);
+}
+h2 {
+    font-size: 30px;
+    color: var(--grape-soda);
+}
+p {
+    font-size: 18px;
+    color: var(--grape-soda);
+}
+#homepage_image {
+    width: 90%;
+}
+button {
+    background-color: var(--grape-soda);
+    color: var(--ash-grey);
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 25px;
+    transition: all 0.3s ease;
+}
+#tvotd-content {
+    display: none; /* Hides the Korean Content of the day bar that would otherwise be visible without even clicking the button*/
+    background-color: var(--ash-grey);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+}
+#drama-image {
+    display: block;
+    margin: 20px auto;
+}
+#drama-title {
+    color: var(--grape-soda);
+}
